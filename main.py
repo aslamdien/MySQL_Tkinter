@@ -5,4 +5,4 @@ mycursor = mydb.cursor()
 
 xy = mycursor.execute('Select * from login')
 for i in mycursor:
-    print(i[0])
+    print(i)
